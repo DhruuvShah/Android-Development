@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Call-and-Link</string>
+    <string name="call_and_link">Call and Link</string>
+    <string name="call_button">call_button</string>
+    <string name="call">Call</string>
+    <string name="link">Link</string>
+</resources>

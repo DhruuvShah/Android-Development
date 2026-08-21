@@ -1,0 +1,40 @@
+com.northq.learninghub.app-pngs-0 C:\Android\AndroidLearningHub\app\build\generated\res\pngs\debug
+com.northq.learninghub.app-resValues-1 C:\Android\AndroidLearningHub\app\build\generated\res\resValues\debug
+com.northq.learninghub.app-updated_navigation_xml-2 C:\Android\AndroidLearningHub\app\build\generated\updated_navigation_xml\debug
+com.northq.learninghub.app-packageDebugResources-3 C:\Android\AndroidLearningHub\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.northq.learninghub.app-packageDebugResources-4 C:\Android\AndroidLearningHub\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.northq.learninghub.app-debug-5 C:\Android\AndroidLearningHub\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.northq.learninghub.app-debug-6 C:\Android\AndroidLearningHub\app\src\debug\res
+com.northq.learninghub.app-main-7 C:\Android\AndroidLearningHub\app\src\main\res
+com.northq.learninghub.app-lifecycle-livedata-core-2.6.1-8 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\033ccc24de36bdddc17e2d75dcdbcf1f\transformed\lifecycle-livedata-core-2.6.1\res
+com.northq.learninghub.app-lifecycle-livedata-2.6.1-9 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\0c666954300071cf1fc7da2f9fd445f6\transformed\lifecycle-livedata-2.6.1\res
+com.northq.learninghub.app-drawerlayout-1.1.1-10 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\2072ac0603d51380d9500f2a7afde4b6\transformed\drawerlayout-1.1.1\res
+com.northq.learninghub.app-fragment-1.6.2-11 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\2157bb617cbfcfb86fbf43cad61aa5c6\transformed\fragment-1.6.2\res
+com.northq.learninghub.app-customview-poolingcontainer-1.0.0-12 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\22833208b43744e587fd38ea5d2339c1\transformed\customview-poolingcontainer-1.0.0\res
+com.northq.learninghub.app-material-1.11.0-13 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\2ba15e1789d5738aa3591747388fb086\transformed\material-1.11.0\res
+com.northq.learninghub.app-play-services-maps-18.2.0-14 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\3e7f4d61520616a8ce51791441e52327\transformed\play-services-maps-18.2.0\res
+com.northq.learninghub.app-cardview-1.0.0-15 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\4cfbd63c310fd4f82e2682ba685d86e0\transformed\cardview-1.0.0\res
+com.northq.learninghub.app-swiperefreshlayout-1.1.0-16 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\54bdd4fdfd91acb0b8f836f8ddd50243\transformed\swiperefreshlayout-1.1.0\res
+com.northq.learninghub.app-profileinstaller-1.3.0-17 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\5a9d62bc480395b5f47909d54e2a2612\transformed\profileinstaller-1.3.0\res
+com.northq.learninghub.app-savedstate-1.2.1-18 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\6755cbb06f8e05d375dcb48537e7686d\transformed\savedstate-1.2.1\res
+com.northq.learninghub.app-play-services-base-18.1.0-19 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\6d5f0501a3284dcfa04f3718d27464b8\transformed\play-services-base-18.1.0\res
+com.northq.learninghub.app-startup-runtime-1.1.1-20 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\6f27b61cd728356d1ceaf22e2b25c1f8\transformed\startup-runtime-1.1.1\res
+com.northq.learninghub.app-lifecycle-viewmodel-2.6.1-21 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\84a36b4ce6eb3bb2984b6cb4a69adfba\transformed\lifecycle-viewmodel-2.6.1\res
+com.northq.learninghub.app-appcompat-1.6.1-22 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\878905728e32d0cb49c28b5414738288\transformed\appcompat-1.6.1\res
+com.northq.learninghub.app-lifecycle-process-2.6.1-23 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\9634109b40983b96a62bb62cef0f0c7e\transformed\lifecycle-process-2.6.1\res
+com.northq.learninghub.app-lifecycle-viewmodel-savedstate-2.6.1-24 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\989c2f46a367b9401bf934654460c137\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.northq.learninghub.app-lifecycle-runtime-2.6.1-25 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\a4e0f29c5c42c6efac1cef7fc405c4f6\transformed\lifecycle-runtime-2.6.1\res
+com.northq.learninghub.app-coordinatorlayout-1.1.0-26 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\ac7d1ca8aac2ff22cc377e64e7779bee\transformed\coordinatorlayout-1.1.0\res
+com.northq.learninghub.app-recyclerview-1.3.2-27 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\b86e274bd5133d249846c2dc43449ac9\transformed\recyclerview-1.3.2\res
+com.northq.learninghub.app-emoji2-views-helper-1.2.0-28 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\be960891f7c9b9577075cb2f01463008\transformed\emoji2-views-helper-1.2.0\res
+com.northq.learninghub.app-play-services-basement-18.1.0-29 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\d0892ad41247c0e67b4fa6c35eeb60ce\transformed\play-services-basement-18.1.0\res
+com.northq.learninghub.app-core-ktx-1.9.0-30 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\d30e29dd84d45c2af422ab936d6b553d\transformed\core-ktx-1.9.0\res
+com.northq.learninghub.app-core-runtime-2.2.0-31 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\d624b5fabcf8c2a738c4bba417fcf5f0\transformed\core-runtime-2.2.0\res
+com.northq.learninghub.app-appcompat-resources-1.6.1-32 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\d91553cd66caf4e1b0c9603ea0b20564\transformed\appcompat-resources-1.6.1\res
+com.northq.learninghub.app-transition-1.2.0-33 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\ddc0c63dc0801a3ffe5eb07669e0f628\transformed\transition-1.2.0\res
+com.northq.learninghub.app-viewpager2-1.1.0-beta02-34 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\de786ac8987ef89751bc52bde0406fb0\transformed\viewpager2-1.1.0-beta02\res
+com.northq.learninghub.app-constraintlayout-2.1.4-35 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\e7a81b23bbc243438e962f8809719a48\transformed\constraintlayout-2.1.4\res
+com.northq.learninghub.app-annotation-experimental-1.3.0-36 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\ec14edceed19fb299872d9f3633bc72a\transformed\annotation-experimental-1.3.0\res
+com.northq.learninghub.app-core-1.9.0-37 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\f3a2c6a0938b42aa4b2fb81490e9506c\transformed\core-1.9.0\res
+com.northq.learninghub.app-emoji2-1.2.0-38 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\f6f0604286f7ed6d35b41780ed9b76ba\transformed\emoji2-1.2.0\res
+com.northq.learninghub.app-activity-1.8.2-39 C:\Users\Dhruv Shah\.gradle\caches\8.13\transforms\fc2d7f5cec30a5a7c881c8ad9729eecc\transformed\activity-1.8.2\res

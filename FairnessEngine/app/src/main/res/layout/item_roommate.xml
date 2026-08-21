@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_medium"
+    android:layout_marginBottom="@dimen/spacing_small"
+    android:background="@drawable/rounded_surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+            
+        <TextView
+            android:id="@+id/txt_up_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UP NEXT"
+            android:textColor="@color/background_color"
+            android:background="@drawable/badge_bg"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_effort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_muted"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="-0.02"
+        android:fontFeatureSettings="tnum"
+        android:layout_marginTop="@dimen/spacing_small" />
+        
+    <!-- Balance bar representation -->
+    <View
+        android:id="@+id/balance_bar"
+        android:layout_width="0dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:background="#FF6B5B" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Fairness Engine</string>
+    <string name="label_up_next">Up Next</string>
+    <string name="edit_chore">Edit Chore</string>
+    <string name="save">Save</string>
+    <string name="chore_icon">Chore Icon</string>
+    <string name="chore_name">Chore name</string>
+    <string name="effort_level">Effort Level</string>
+    <string name="low">Low</string>
+    <string name="high">High</string>
+    <string name="med">Med</string>
+    <string name="frequency">Frequency</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="eligible_assignees">Eligible Assignees</string>
+    <string name="needed">Needed</string>
+    <string name="save_chore">Save Chore</string>
+    <string name="vacuum_living_room">Vacuum Living Room</string>
+    <string name="priya">Priya</string>
+    <string name="today">Today</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.GooglePay" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- Launch Screen Background -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Keep status bar white during launch -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+
+
+    </style>
+
+    <style name="Theme.GooglePay" parent="Base.Theme.GooglePay" />
+
+</resources>

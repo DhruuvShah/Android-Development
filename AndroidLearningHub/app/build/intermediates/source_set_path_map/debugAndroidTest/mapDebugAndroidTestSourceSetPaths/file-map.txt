@@ -1,0 +1,4 @@
+com.northq.learninghub.test.app-androidTest-0 C:\Android\AndroidLearningHub\app\build\generated\res\resValues\androidTest\debug
+com.northq.learninghub.test.app-mergeDebugAndroidTestResources-1 C:\Android\AndroidLearningHub\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.northq.learninghub.test.app-mergeDebugAndroidTestResources-2 C:\Android\AndroidLearningHub\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.northq.learninghub.test.app-debugAndroidTest-3 C:\Android\AndroidLearningHub\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

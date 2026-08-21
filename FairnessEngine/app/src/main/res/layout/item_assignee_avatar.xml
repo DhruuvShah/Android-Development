@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="36dp"
+    android:layout_height="36dp"
+    android:layout_marginEnd="@dimen/spacing_xs"
+    android:background="@drawable/bg_avatar_circle"
+    android:gravity="center"
+    android:textColor="@color/background_primary"
+    android:textStyle="bold"
+    tools:text="M"
+    xmlns:tools="http://schemas.android.com/tools" />

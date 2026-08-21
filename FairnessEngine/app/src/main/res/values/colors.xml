@@ -1,0 +1,28 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <color name="background_color">#1C151D</color>
+    <color name="surface_color">#2B222A</color>
+    
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_muted">#A8949E</color>
+    
+    <color name="pill_bg">#3C2F3A</color>
+    <color name="pill_bg_selected">#E9D5E2</color>
+    
+    <!-- Roommate Colors -->
+    <color name="roommate_1">#FF6B5B</color>
+    <color name="roommate_2">#FFB648</color>
+    <color name="roommate_3">#6FCF97</color>
+    <color name="roommate_4">#56C2E0</color>
+    <color name="roommate_5">#C77DFF</color>
+    <color name="identity_sky">#56C2E0</color>
+    <color name="status_success">#6FCF97</color>
+    <color name="background_primary">#1C151D</color>
+    <color name="identity_coral">#FF6B5B</color>
+    <color name="surface_card">#2B222A</color>
+    <color name="icon_muted_bg">#3C2F3A</color>
+    <color name="weight_tier_3">#C77DFF</color>
+    <color name="divider">#3C2F3A</color>
+</resources>

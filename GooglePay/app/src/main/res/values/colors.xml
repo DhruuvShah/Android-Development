@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="top_background">#06081F</color>
+    <color name="top_title">#E1E2E7</color>
+    <color name="search_bar">#1E1F21</color>
+    <color name="square_cubes">#0742A0</color>
+    <color name="square_cube_text">#E5E5E5</color>
+    <color name="rocket_trophy_pill">#131313</color>
+    <color name="rocket_trophy_circle">#303032</color>
+    <color name="people_1">#5C6BC0</color>
+    <color name="people_2">#BF360C</color>
+    <color name="people_3">#004A77</color>
+    <color name="people_4">#AA47BC</color>
+    <color name="people_5">#A2032C</color>
+    <color name="people_6">#512EA6</color>
+    <color name="people_7">#5C6BC0</color>
+    <color name="more_button">#512EA6</color>
+</resources>

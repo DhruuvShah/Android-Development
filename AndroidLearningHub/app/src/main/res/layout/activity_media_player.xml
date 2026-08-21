@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/playerRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/manifold_canvas"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start"
+        android:background="@android:color/transparent"
+        android:contentDescription="Back"
+        android:src="@drawable/ic_back"
+        app:tint="@color/manifold_ink_900" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="48dp"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="4dp"
+        app:strokeWidth="0dp">
+
+        <ImageView
+            android:id="@+id/coverArt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bekhayali"
+            app:layout_constraintDimensionRatio="1:1" />
+
+        <!-- Aspect ratio shim for CardView content -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="320dp" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/trackTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bekhayali"
+        android:textColor="@color/manifold_ink_900"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/artistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Sachet Tandon"
+        android:textColor="@color/manifold_ink_600"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/trackSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="48dp"
+        android:progressTint="@color/manifold_primary"
+        android:thumbTint="@color/manifold_primary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/skipPrevBtn"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Previous"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_skip_previous"
+            app:tint="@color/manifold_ink_900" />
+
+        <ImageButton
+            android:id="@+id/playPauseBtn"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginHorizontal="24dp"
+            android:background="@drawable/bg_button_primary"
+            android:contentDescription="Play/Pause"
+            android:elevation="4dp"
+            android:padding="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_play"
+            app:backgroundTint="@null"
+            app:tint="@color/white" />
+
+        <ImageButton
+            android:id="@+id/skipNextBtn"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Next"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_skip_next"
+            app:tint="@color/manifold_ink_900" />
+    </LinearLayout>
+
+</LinearLayout>

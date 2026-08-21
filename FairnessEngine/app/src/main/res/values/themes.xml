@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.FairnessEngine" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor">@color/background_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/surface_color</item>
+        <item name="colorPrimary">@color/pill_bg_selected</item>
+        <item name="colorOnPrimary">@color/background_color</item>
+        <item name="colorSurface">@color/surface_color</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_muted</item>
+        
+        <!-- Bottom Navigation -->
+        <item name="bottomNavigationStyle">@style/Widget.FairnessEngine.BottomNavigationView</item>
+    </style>
+    
+    <style name="Widget.FairnessEngine.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.FairnessEngine.BottomNavigationView.ActiveIndicator</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+    
+    <style name="Widget.FairnessEngine.BottomNavigationView.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#3C2F3A</item>
+    </style>
+
+    <style name="Text" parent="android:Widget.TextView">
+    </style>
+
+    <style name="Text.Muted">
+        <item name="android:textColor">@color/text_muted</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Body">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Score">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

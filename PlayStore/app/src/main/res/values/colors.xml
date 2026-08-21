@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background">#121212</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#B7B7B7</color>
+    <color name="blue">#A7C9F7</color>
+    <color name="dark_blue">#042767</color>
+    <color name="bottom_bar">#1E1F21</color>
+    <color name="hover_blue">#014A77</color>
+
+</resources>

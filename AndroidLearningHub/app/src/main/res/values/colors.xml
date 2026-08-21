@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Manifold Design System Tokens -->
+    <color name="manifold_canvas">#F5F5F1</color>
+    <color name="manifold_surface">#FFFFFF</color>
+    <color name="manifold_primary">#34407C</color>
+    <color name="manifold_primary_container">#DEE1F0</color>
+    <color name="manifold_ink_900">#1B1C20</color>
+    <color name="manifold_ink_600">#5B5D66</color>
+    <color name="manifold_ink_300">#A6A8B0</color>
+    <color name="manifold_divider">#E4E3DE</color>
+
+    <color name="manifold_success">#3C7A5C</color>
+    <color name="manifold_warning">#B07A2E</color>
+    <color name="manifold_error">#A73E3E</color>
+
+    <!-- Legacy / Compatibility Aliases -->
+    <color name="bg">@color/manifold_canvas</color>
+    <color name="surface">@color/manifold_surface</color>
+    <color name="ink">@color/manifold_ink_900</color>
+    <color name="ink_secondary">@color/manifold_ink_600</color>
+    <color name="accent">@color/manifold_primary</color>
+    <color name="accent_dark">#283161</color> <!-- Darker indigo -->
+    <color name="success">@color/manifold_success</color>
+    <color name="danger">@color/manifold_error</color>
+    <color name="divider">@color/manifold_divider</color>
+    <color name="white">#FFFFFF</color>
+</resources>

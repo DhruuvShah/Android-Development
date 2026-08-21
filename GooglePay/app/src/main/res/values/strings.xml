@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">GPay</string>
+
+    <!-- Search -->
+    <string name="pay_friends_and_merchants">Pay friends and merchants</string>
+
+    <!-- Sponsored Banner -->
+    <string name="secure_simple">Secure. Simple.</string>
+    <string name="instant_payments">Instant payments.</string>
+    <string name="pay_anyone_anywhere">Pay anyone, anywhere with Google Pay</string>
+
+    <!-- Quick Actions -->
+    <string name="scan_any_qr_code">Scan any QR code</string>
+    <string name="pay_anyone">Pay anyone</string>
+    <string name="bank_transfer">Bank transfer</string>
+    <string name="mobile_recharge">Mobile recharge</string>
+
+    <!-- Suggestions -->
+    <string name="upi_lite">UPI Lite</string>
+    <string name="activate">Activate</string>
+    <string name="rewards">Rewards</string>
+    <string name="new_reward">New</string>
+
+    <!-- People -->
+    <string name="people">People</string>
+    <string name="alex">Alex</string>
+    <string name="riya">Riya</string>
+    <string name="aarav">Aarav</string>
+    <string name="neha">Neha</string>
+    <string name="karan">Karan</string>
+    <string name="meera">Meera</string>
+    <string name="dev">Dev</string>
+    <string name="anaya">Anaya</string>
+    <string name="more">More</string>
+
+    <!-- Bottom Navigation -->
+    <string name="home">Home</string>
+    <string name="money">Money</string>
+    <string name="you">You</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="google_pay_banner" />
+    <string name="simple">Simple</string>
+    <string name="secure">Secure</string>
+    <string name="pay_anyone_anywhere_with_google_pay">Pay anyone, anywhere with Google Pay</string>
+    <string name="d">D</string>
+    <string name="m">M</string>
+    <string name="k">K</string>
+    <string name="n">N</string>
+    <string name="a">A</string>
+    <string name="r">R</string>
+    <string name="news">New</string>
+    <string name="fresh">Fresh</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PlayStore</string>
+    <string name="playstore">PlayStore</string>
+    <string name="notification">Notification</string>
+    <string name="account">Account</string>
+    <string name="play_store">Play Store</string>
+    <string name="for_you">For You</string>
+    <string name="top_charts">Top charts</string>
+    <string name="kids">Kids</string>
+    <string name="categories">Categories</string>
+    <string name="how_many_dudes_banner">How Many Dudes Banner</string>
+    <string name="how_many_dudes_icon">How Many Dudes Icon</string>
+    <string name="how_many_dudes">How Many Dudes?</string>
+    <string name="butterscotch_shenanigans">Butterscotch Shenanigans</string>
+    <string name="_7">7+</string>
+    <string name="rated_for_7">Rated for 7+</string>
+    <string name="play_pass">Play Pass</string>
+    <string name="_499_00">₹499.00</string>
+    <string name="notebooklm">Notebooklm</string>
+    <string name="gemini_notebook">Gemini Notebook</string>
+    <string name="productivity_notes">Productivity · Notes</string>
+    <string name="blinkit_groceries_more"><![CDATA[Blinkit: Groceries & more]]></string>
+    <string name="food_drink_delivery_grocery_lists"><![CDATA[Food & drink · Delivery · Grocery lists]]></string>
+</resources>

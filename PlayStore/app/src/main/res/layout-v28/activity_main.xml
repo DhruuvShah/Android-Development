@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <!-- TOP BAR -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <!-- Google Play Logo -->
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:contentDescription="@string/playstore"
+            android:src="@drawable/playstore" />
+
+        <!-- Push remaining icons to the right -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Notification Icon -->
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:contentDescription="@string/notification"
+            android:src="@drawable/notification"
+            app:tint="#FFFFFF" />
+
+        <!-- Space between Notification and Profile -->
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="1dp" />
+
+        <!-- Account / Profile Icon -->
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="@string/account"
+            android:src="@drawable/account" />
+
+    </LinearLayout>
+
+    <!-- CATEGORY TABS -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <!-- For You Tab - Selected -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="24dp"
+            android:text="@string/for_you"
+            android:textColor="@color/blue"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <!-- Top Charts Tab -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="24dp"
+            android:text="@string/top_charts"
+            android:textColor="@color/gray"
+            android:textSize="15sp"
+            tools:ignore="RtlSymmetry" />
+
+        <!-- Kids Tab -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="24dp"
+            android:text="@string/kids"
+            android:textColor="@color/gray"
+            android:textSize="15sp"
+            tools:ignore="RtlSymmetry" />
+
+        <!-- Categories Tab -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categories"
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <!-- CATEGORY BOTTOM BORDER -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="15dp"
+        android:background="#2A2A2A" />
+
+    <!-- FEATURED APP BANNER -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="0dp">
+
+        <!-- How Many Dudes Banner Image -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:contentDescription="@string/how_many_dudes_banner"
+            android:scaleType="centerCrop"
+            android:src="@drawable/how_many_dudes_banner" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- HOW MANY DUDES APP CARD -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- HOW MANY DUDES APP ICON -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp">
+
+            <!-- How Many Dudes App Icon -->
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:contentDescription="@string/how_many_dudes_icon"
+                android:scaleType="centerCrop"
+                android:src="@drawable/how_many_dudes" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- HOW MANY DUDES TEXT CONTENT -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:orientation="vertical">
+
+            <!-- How Many Dudes App Name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/how_many_dudes"
+                android:textColor="@android:color/white"
+                android:textFontWeight="400"
+                android:textSize="15sp" />
+
+            <!-- Developer / Company Name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/butterscotch_shenanigans"
+                android:textColor="@color/gray"
+                android:textSize="12sp" />
+
+            <!-- AGE RATING + RATED TEXT + PLAY PASS -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <!-- 7+ Age Rating Badge -->
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/age_rating_badge"
+                    android:gravity="center"
+                    android:text="@string/_7"
+                    android:textColor="@color/background"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <!-- Space after 7+ Badge -->
+                <Space
+                    android:layout_width="4dp"
+                    android:layout_height="1dp" />
+
+                <!-- Rated for 7+ Text -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rated_for_7"
+                    android:textColor="@color/gray"
+                    android:textSize="12sp" />
+
+                <!-- Space before Play Pass -->
+                <Space
+                    android:layout_width="8dp"
+                    android:layout_height="1dp" />
+
+                <!-- Play Pass Icon -->
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:contentDescription="@string/play_pass"
+                    android:src="@drawable/play_pass" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- PUSH PRICE BUTTON TO THE RIGHT -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- HOW MANY DUDES PRICE BUTTON -->
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/price_button"
+            android:gravity="center"
+            android:text="@string/_499_00"
+            android:textColor="@color/dark_blue"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- GEMINI NOTEBOOK -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- GEMINI NOTEBOOK APP ICON -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp">
+
+            <!-- Gemini Notebook App Icon -->
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:contentDescription="@string/notebooklm"
+                android:scaleType="centerCrop"
+                android:src="@drawable/notebooklm" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- GEMINI NOTEBOOK TEXT CONTENT -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:orientation="vertical">
+
+            <!-- Gemini Notebook App Name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/gemini_notebook"
+                android:textColor="@android:color/white"
+                android:textFontWeight="400"
+                android:textSize="15sp" />
+
+            <!-- Gemini Notebook Category -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/productivity_notes"
+                android:textColor="@color/gray"
+                android:textSize="12sp" />
+
+            <!-- GEMINI NOTEBOOK RATING + SIZE -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <!-- Rating Pill -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:background="@drawable/rating_pill"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="8dp">
+
+                    <!-- Rating Number -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4.6"
+                        android:textColor="#BDBDBD"
+                        android:textSize="12sp" />
+
+                    <!-- Filled Star -->
+                    <ImageView
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:layout_marginStart="3dp"
+                        android:contentDescription="Rating star"
+                        android:src="@drawable/star" />
+
+                </LinearLayout>
+
+                <!-- Space Between Rating and Size -->
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="1dp" />
+
+                <!-- App Size -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="29 MB"
+                    android:textColor="#BDBDBD"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- BLINKIT APP CARD -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- BLINKIT APP ICON -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp">
+
+            <!-- Blinkit App Icon -->
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:contentDescription="Blinkit App Icon"
+                android:scaleType="centerCrop"
+                android:src="@drawable/blinkit" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- BLINKIT TEXT CONTENT -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:orientation="vertical">
+
+            <!-- Blinkit App Name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/blinkit_groceries_more"
+                android:textColor="@android:color/white"
+                android:textFontWeight="400"
+                android:textSize="15sp" />
+
+            <!-- Blinkit Category / Description -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/food_drink_delivery_grocery_lists"
+                android:textColor="@color/gray"
+                android:textSize="12sp" />
+
+            <!-- Rating + App Size -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <!-- Rating Pill -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:background="@drawable/rating_pill"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="8dp">
+
+                    <!-- Rating Number -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4.6"
+                        android:textColor="#BDBDBD"
+                        android:textSize="12sp" />
+
+                    <!-- Filled Star -->
+                    <ImageView
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:layout_marginStart="3dp"
+                        android:contentDescription="Rating star"
+                        android:src="@drawable/star" />
+
+                </LinearLayout>
+
+                <!-- Space Between Rating and Size -->
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="1dp" />
+
+                <!-- App Size -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="26 MB"
+                    android:textColor="#BDBDBD"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- ANGEL ONE APP CARD -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- ANGEL ONE APP ICON -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp">
+
+            <!-- Angel One App Icon -->
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:contentDescription="Angel One App Icon"
+                android:scaleType="centerCrop"
+                android:src="@drawable/angle_one" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- ANGEL ONE TEXT CONTENT -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:orientation="vertical">
+
+            <!-- Angel One App Name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Angle One: Stocks, Mutual Fund"
+                android:textColor="@android:color/white"
+                android:textFontWeight="400"
+                android:textSize="15sp" />
+
+            <!-- Angel One Category / Description -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Finance · Fund · Stock"
+                android:textColor="@color/gray"
+                android:textSize="12sp" />
+
+            <!-- Rating + App Size + Verified -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <!-- Rating Pill -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:background="@drawable/rating_pill"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="9dp"
+                    android:paddingEnd="7dp">
+
+                    <!-- Rating Number -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4.4"
+                        android:textColor="#BDBDBD"
+                        android:textSize="12sp" />
+
+                    <!-- Filled Star -->
+                    <ImageView
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:layout_marginStart="3dp"
+                        android:contentDescription="Rating star"
+                        android:src="@drawable/star" />
+
+                </LinearLayout>
+
+                <!-- Space Between Rating and Size -->
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="1dp" />
+
+                <!-- App Size -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="42 MB"
+                    android:textColor="#BDBDBD"
+                    android:textSize="12sp" />
+
+                <!-- Space Between Size and Verified -->
+                <Space
+                    android:layout_width="14dp"
+                    android:layout_height="1dp" />
+
+                <!-- Verified Pill -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:background="@drawable/rating_pill"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="9dp">
+
+                    <!-- Verified Icon -->
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:contentDescription="Verified"
+                        android:src="@drawable/verified" />
+
+                    <!-- Verified Text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="Verified"
+                        android:textColor="#BDBDBD"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Push Bottom Bar to Bottom -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Bottom Navigation Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="@color/bottom_bar"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- Play Pass -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:contentDescription="Play Pass"
+            android:scaleType="fitCenter"
+            android:src="@drawable/play_pass" />
+
+        <!-- Games -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:contentDescription="Games"
+            android:scaleType="fitCenter"
+            android:src="@drawable/controller" />
+
+        <!-- Search -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:contentDescription="Search"
+            android:scaleType="fitCenter"
+            android:src="@drawable/search" />
+
+        <!-- Apps -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:contentDescription="Apps"
+            android:scaleType="fitCenter"
+            android:src="@drawable/apps" />
+
+        <!-- You -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:contentDescription="You"
+            android:scaleType="fitCenter"
+            android:src="@drawable/account" />
+
+    </LinearLayout>
+</LinearLayout>
