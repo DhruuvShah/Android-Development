@@ -1,0 +1,14 @@
+# Android Studio / IntelliJ files
+.idea/
+*.iml
+.gradle/
+local.properties
+captures/
+
+# Build outputs (applies to all subfolder projects)
+**/build/
+**/captures/
+
+# System files
+.DS_Store
+Thumbs.db
