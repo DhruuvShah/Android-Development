@@ -20,7 +20,7 @@ public class ImplicitActivity extends AppCompatActivity {
 
         buttonCall.setOnClickListener(view -> {
             Intent callIntent = new Intent(Intent.ACTION_DIAL);
-            callIntent.setData(Uri.parse("tel:8799300885"));
+            callIntent.setData(Uri.parse("tel:9874561230"));
             startActivity(callIntent);
         });
 

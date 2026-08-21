@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/imgbg"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter email"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_below="@id/imgLogo"
+        android:layout_marginTop="50dp"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:hint="enter pass"
+        android:inputType="textPassword"
+        android:layout_below="@id/edtEmail"
+        android:layout_marginTop="50dp"
+        android:imeOptions="actionDone"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtForgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textSize="20dp"
+        android:layout_below="@id/edtPass"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SigIn"
+        android:layout_marginStart="50dp"
+        android:layout_below="@id/txtForgotPass"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SigUp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtForgotPass"
+        android:layout_toEndOf="@id/btnSignIn"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
