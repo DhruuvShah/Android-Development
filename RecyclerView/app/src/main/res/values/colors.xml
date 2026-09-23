@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="jojo_bg">#121212</color>
+    <color name="jojo_gold">#FFD700</color>
+    <color name="jojo_purple_light">#D1A3FF</color>
+    <color name="jojo_text_secondary">#E0E0E0</color>
+</resources>

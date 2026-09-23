@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JoJo</string>
+    <string name="desc_profile_image">Profile Image</string>
+    <string name="desc_status_icon">Message Status</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="jojo_s_bizarre_nadventure">JOJO\'S BIZARRE\nADVENTURE</string>
+    <string name="status">Status</string>
+</resources>

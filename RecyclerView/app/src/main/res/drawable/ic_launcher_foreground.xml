@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- We group the paths to scale them down by 75% and push them to the absolute center safe-zone -->
+    <group
+        android:translateX="7.5"
+        android:translateY="9"
+        android:pivotX="46.5"
+        android:pivotY="45"
+        android:scaleX="0.75"
+        android:scaleY="0.75">
+
+        <!-- The Fancy 'J' -->
+        <path
+            android:fillColor="#FFD600"
+            android:pathData="M38,25 h40 v12 h-8 v26 c0,11 -9,20 -20,20 c-11,0 -20,-9 -20,-20 v-10 h12 v10 c0,4.4 3.6,8 8,8 c4.4,0 8,-3.6 8,-8 v-26 h-20 z" />
+
+        <!-- The Joestar Birthmark Star Accent (Now Vibrant Crimson/Pink for high contrast) -->
+        <path
+            android:fillColor="#FF0055"
+            android:pathData="M 28,12 l 2.5,7.5 l 7.5,0 l -6,4.5 l 2.5,7.5 l -6.5,-5 l -6.5,5 l 2.5,-7.5 l -6,-4.5 l 7.5,0 z" />
+    </group>
+</vector>
