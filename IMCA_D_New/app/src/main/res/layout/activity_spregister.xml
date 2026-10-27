@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SPRegisterActivity"
+    android:background="@color/white"
+    android:padding="15dp"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Page"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtFirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First name"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:layout_marginTop="50dp"
+        android:imeOptions="actionNext"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtLastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Last name"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:layout_marginTop="40dp"
+        android:imeOptions="actionNext"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:layout_marginTop="40dp"
+        android:imeOptions="actionNext"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:layout_marginTop="40dp"
+        android:imeOptions="actionDone"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btnSubmit"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="80dp"/>
+
+</LinearLayout>

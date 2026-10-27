@@ -19,10 +19,6 @@
             android:exported="true"
             android:theme="@style/Theme.FairnessEngine"
             android:windowSoftInputMode="adjustResize">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity android:name=".RegisterActivity" android:exported="false" />
@@ -32,6 +28,10 @@
             android:exported="true"
             android:theme="@style/Theme.FairnessEngine"
             android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <activity android:name=".HomeDashboardActivity" android:exported="false" />

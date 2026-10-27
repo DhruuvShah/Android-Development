@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Top Cylinder Disk -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34c11.05,0 20,3.13 20,7c0,3.87 -8.95,7 -20,7c-11.05,0 -20,-3.13 -20,-7c0,-3.87 8.95,-7 20,-7z"/>
+
+    <!-- Middle Cylinder Layer -->
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M34,41v10c0,3.87 8.95,7 20,7c11.05,0 20,-3.13 20,-7V41c0,3.87 -8.95,7 -20,7c-11.05,0 -20,-3.13 -20,-7z"/>
+
+    <!-- Bottom Cylinder Layer -->
+    <path
+        android:fillColor="#C7D2FE"
+        android:pathData="M34,53v10c0,3.87 8.95,7 20,7c11.05,0 20,-3.13 20,-7V53c0,3.87 -8.95,7 -20,7c-11.05,0 -20,-3.13 -20,-7z"/>
+
+    <!-- Accent Indicator Dot -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M66,66m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0"/>
+
+</vector>

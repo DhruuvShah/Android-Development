@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Camera App</string>
+    <string name="click_image">Click Image</string>
+    <string name="app_logo_desc">App Logo</string>
+    <string name="app_title">Camera Pro</string>
+    <string name="app_subtitle">Capture moments with precision &amp; elegance</string>
+    <string name="launch_camera">Launch Camera</string>
+</resources>

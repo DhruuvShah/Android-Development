@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Database App</string>
+    <string name="db_manager_subtitle">SQLite Database CRUD Operations</string>
+    <string name="dashboard_actions">Dashboard Actions</string>
+    <string name="add_new_record_btn">Add New Record (Insert)</string>
+    <string name="view_all_records_btn">View All Records</string>
+    <string name="search_update_delete_btn">Search, Update &amp; Delete Record</string>
+    <string name="insert_record_title">Insert New Record</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="insert_record">Insert Record</string>
+    <string name="view_records">View Records</string>
+    <string name="back">Back</string>
+    <string name="database_records">Database Records</string>
+    <string name="update_delete_records">Update / Delete Record</string>
+    <string name="update_delete_record_title">Update / Delete Record</string>
+    <string name="enter_record_id">Enter Record ID</string>
+    <string name="search_record">Search Record</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="no_records_found">No records found.</string>
+</resources>

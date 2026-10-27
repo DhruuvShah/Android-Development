@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="hint_num1">First Number</string>
+    <string name="hint_num2">Second Number</string>
+    <string name="btn_add">+</string>
+    <string name="btn_sub">-</string>
+    <string name="btn_mul">×</string>
+    <string name="btn_div">÷</string>
+    <string name="btn_clear">Clear</string>
+    <string name="result_label">Result: </string>
+    <string name="default_zero">0</string>
+    <string name="error_text">Error</string>
+    <string name="error_empty">Please enter numbers in both fields</string>
+    <string name="error_division_by_zero">Cannot divide by zero</string>
+    <string name="error_invalid_number">Please enter valid numbers</string>
+</resources>

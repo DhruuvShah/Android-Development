@@ -100,13 +100,50 @@ public class AddRoommatesActivity extends AppCompatActivity {
         });
 
         btnDone.setOnClickListener(v -> {
-            // Disabled navigation to HomeDashboardActivity
-            Toast.makeText(this, "Setup complete! Other features are currently disabled.", Toast.LENGTH_LONG).show();
+            if (!isManageMode) {
+                startActivity(new Intent(this, HomeDashboardActivity.class));
+            }
+            finish();
         });
 
         com.google.android.material.bottomnavigation.BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         if (bottomNav != null) {
-            bottomNav.setVisibility(View.GONE);
+            if (!isManageMode) {
+                bottomNav.setVisibility(View.GONE);
+                // Also adjust the done button text for onboarding
+                btnDone.setText("Let's go");
+            } else {
+                bottomNav.setVisibility(View.VISIBLE);
+                bottomNav.setSelectedItemId(R.id.nav_roommates);
+                btnDone.setText("Done");
+                bottomNav.setOnItemSelectedListener(item -> {
+                    int id = item.getItemId();
+                    if (id == R.id.nav_home) {
+                        startActivity(new Intent(this, HomeDashboardActivity.class));
+                        overridePendingTransition(0, 0);
+                        finish();
+                        return true;
+                    } else if (id == R.id.nav_history) {
+                        startActivity(new Intent(this, HistoryLogActivity.class));
+                        overridePendingTransition(0, 0);
+                        finish();
+                        return true;
+                    } else if (id == R.id.nav_chores) {
+                        startActivity(new Intent(this, ChoresListActivity.class));
+                        overridePendingTransition(0, 0);
+                        finish();
+                        return true;
+                    } else if (id == R.id.nav_roommates) {
+                        return true;
+                    } else if (id == R.id.nav_settings) {
+                        startActivity(new Intent(this, SettingsActivity.class));
+                        overridePendingTransition(0, 0);
+                        finish();
+                        return true;
+                    }
+                    return false;
+                });
+            }
         }
 
         AppDatabase db = ((FairnessEngineApp) getApplication()).getDatabase();

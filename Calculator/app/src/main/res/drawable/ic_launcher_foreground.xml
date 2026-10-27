@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Top-Left Button (+) -->
+    <path
+        android:fillColor="#E5E7EB"
+        android:pathData="M 42, 40 m -12, 0 a 12,12 0 1,1 24,0 a 12,12 0 1,1 -24,0" />
+    <!-- Plus symbol '+' -->
+    <path
+        android:fillColor="#1F2937"
+        android:pathData="M36,40 L48,40 M42,34 L42,46"
+        android:strokeWidth="2.5"
+        android:strokeColor="#1F2937"
+        android:strokeLineCap="round"/>
+
+    <!-- Top-Right Button (-) -->
+    <path
+        android:fillColor="#E5E7EB"
+        android:pathData="M 66, 40 m -12, 0 a 12,12 0 1,1 24,0 a 12,12 0 1,1 -24,0" />
+    <!-- Minus symbol '-' -->
+    <path
+        android:fillColor="#1F2937"
+        android:pathData="M60,40 L72,40"
+        android:strokeWidth="2.5"
+        android:strokeColor="#1F2937"
+        android:strokeLineCap="round"/>
+
+    <!-- Bottom-Left Button (×) -->
+    <path
+        android:fillColor="#E5E7EB"
+        android:pathData="M 42, 68 m -12, 0 a 12,12 0 1,1 24,0 a 12,12 0 1,1 -24,0" />
+    <!-- Multiply symbol '×' -->
+    <path
+        android:fillColor="#1F2937"
+        android:pathData="M37,63 L47,73 M47,63 L37,73"
+        android:strokeWidth="2.5"
+        android:strokeColor="#1F2937"
+        android:strokeLineCap="round"/>
+
+    <!-- Bottom-Right Button (=) - Orange Accent -->
+    <path
+        android:fillColor="#FF9F0A"
+        android:pathData="M 66, 68 m -12, 0 a 12,12 0 1,1 24,0 a 12,12 0 1,1 -24,0" />
+    <!-- Equals symbol '=' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,65 L72,65 M60,71 L72,71"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"/>
+
+</vector>
