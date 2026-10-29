@@ -1,5 +1,6 @@
 package com.example.sharedpreferenceapp;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -16,6 +17,7 @@ public class HomeActivity extends AppCompatActivity {
     TextView txtTitle;
     Button btnLogout;
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

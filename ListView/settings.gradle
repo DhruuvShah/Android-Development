@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "IMCA_D_New"
+rootProject.name = "ListView"
 include ':app'

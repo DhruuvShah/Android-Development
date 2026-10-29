@@ -39,7 +39,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                if(sharedPreferences.getBoolean("IS_LOGIN", false) == true)
+                if(sharedPreferences.getBoolean("IS_LOGIN", false))
                 {
                     startActivity(new Intent(SplashActivity.this, HomeActivity.class));
                 }else{
